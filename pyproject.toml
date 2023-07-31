@@ -9,7 +9,7 @@ packages = [{include = "graph_data_generator_streamlit"}]
 [tool.poetry.dependencies]
 python = "^3.11"
 streamlit = "^1.24.1"
-graph-data-generator = {path = "/Users/jasonkoo/jason/repos/graph-data-generator", develop = true}
+graph-data-generator = "^0.1.0"
 
 
 [build-system]

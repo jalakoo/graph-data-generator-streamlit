@@ -240,18 +240,15 @@ name = "graph-data-generator"
 version = "0.1.0"
 description = ""
 optional = false
-python-versions = "^3.11"
-files = []
-develop = true
+python-versions = ">=3.11,<4.0"
+files = [
+    {file = "graph_data_generator-0.1.0-py3-none-any.whl", hash = "sha256:0dadff5f3266b1710e593b16c91175acc3092078a27825312a5420cd4a7813d9"},
+    {file = "graph_data_generator-0.1.0.tar.gz", hash = "sha256:66a30f1bc74ca179d35791c1b867e327db9dffa5d6015d6a67253ee5df381b5d"},
+]
 
 [package.dependencies]
-faker = "^19.1.0"
-jsonschema = "^4.18.3"
-lorem-text = "^2.1"
-
-[package.source]
-type = "directory"
-url = "../graph-data-generator"
+faker = ">=19.1.0,<20.0.0"
+lorem-text = ">=2.1,<3.0"
 
 [[package]]
 name = "idna"
@@ -1183,4 +1180,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "14667d2338eb757e65b9639da32a68899f3775772008b1e122b467a46080f634"
+content-hash = "734e3615bc2595a93bec243f31db86de0b701e262a9eababcb6745254a5ef610"

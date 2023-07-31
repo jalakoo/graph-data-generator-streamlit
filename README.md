@@ -1,6 +1,9 @@
 # Graph Data Generator Streamlit
 Applet with UI interface to conveniently use and test the graph-data-generator package.
 
+## Running
+`poetry run streamlit run graph_data_generator_streamlit/app.py`
+
 ## Testing Local
 If referencing the graph-data-generator locally, with Poetry:
 `poetry add --editable /path/to/package`
