@@ -6,19 +6,6 @@ import graph_data_generator as gdg
 
 def generate_tab():
 
-    with st.expander("Instructions"):
-        st.write(
-            """
-        1. Import a file created from the ① Ideate or ② Design tabs 
-        2. The mock graph data generator will automatically generate a .zip file containing .csv and .json files. The .csvs can be independently imported into any database that supports .csv imports. The .json file is specifically formatted for the Neo4j Data Importer.
-        3. Download the .zip file
-        4. Proceed to the '④ Data Importer' tab
-        """
-        )
-    
-
-    st.markdown("--------")
-
     # c1, c2 = st.tabs(["Copy & Paste", "Import File"])
     # with c1:
 
