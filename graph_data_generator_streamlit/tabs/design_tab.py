@@ -16,7 +16,6 @@ def load_string(filepath: str, default=None):
             return default
     with open(filepath, 'r') as f:
         return f.read()
-    
 
 def filtered_generators(
         search_term: str, 
@@ -52,7 +51,7 @@ def design_tab():
     with c2:
         search_term = st.text_input("Search Generators by keyword", "", help="Generators are functions for creating mock data.")
         # st.write(generators)
-        type_filter = st.radio("Filter Generator outputs by type", ["All", "String", "Bool", "Integer", "Float","Datetime", "Assignment"])
+        type_filter = st.radio("Filter Generator outputs by type", ["All", "String", "Bool", "Integer", "Float", "Function", "Datetime", "Assignment"])
         
         total_count = len(generators)
         display_generators = filtered_generators(search_term, type_filter, generators)
@@ -130,7 +129,7 @@ def design_tab():
                 # name = generator.name
                 args = arg_inputs
                 obj = {
-                    generator.name: args
+                    generator.gid: args
                 }
 
                 json_string = json.dumps(obj, default=str)

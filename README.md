@@ -15,7 +15,7 @@ If referencing the graph-data-generator locally, with Poetry:
 `poetry add --editable /path/to/package`
 
 Point to the project root folder, for example:
-`poetry add --editable /Users/jasonkoo/jason/repos/graph-data-generator`
+`poetry add --editable /Users/jasonkoo/neo4j/repos/graph-data-generator`
 
 ## Running
 `poetry update`

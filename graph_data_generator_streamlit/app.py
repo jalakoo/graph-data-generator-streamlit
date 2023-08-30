@@ -3,9 +3,13 @@ from tabs.instructions_tab import instructions_tab
 from tabs.design_tab import design_tab
 from tabs.generate_tab import generate_tab
 from tabs.data_importer_tab import data_importer_tab
+import logging
+import sys
 
 # SETUP
 st.set_page_config(layout="wide")
+logging.getLogger().setLevel(logging.DEBUG)
+logging.info(f'App Started')
 
 instructions_tab()
 

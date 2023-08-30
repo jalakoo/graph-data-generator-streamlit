@@ -15,7 +15,7 @@ def generate_tab():
     if txt is not None and txt != "":
 
         try:
-            zip = gdg.generate(txt)
+            zip = gdg.generate(txt, enable_logging=True)
             if zip is None:
                 st.warning('Unexpected problem generating file. Try an alternate JSON input')
             else:
