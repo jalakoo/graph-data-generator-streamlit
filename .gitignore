@@ -2,3 +2,4 @@
 .streamlit
 **/.pytest_cache
 REFERENCES.md
+**__pycache__
