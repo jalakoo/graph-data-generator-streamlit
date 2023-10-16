@@ -12,6 +12,7 @@ streamlit = "^1.24.1"
 graph-data-generator = {path = "/Users/jasonkoo/neo4j/repos/graph-data-generator", develop = true}
 streamlit-player = "^0.1.5"
 streamlit-extras = "^0.3.0"
+neomodel = "^5.1.2"
 
 
 [tool.poetry.group.dev.dependencies]

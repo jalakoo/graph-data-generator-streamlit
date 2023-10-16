@@ -11,5 +11,5 @@ def instructions_tab():
         - Chromium browser recommended for best experience.
         - Each tool may require independent logins with first use.
     """)
-    url = st.secrets["VIDEO_TUTORIAL_URL"]
-    st_player(url, height=600)
+    # url = st.secrets["VIDEO_TUTORIAL_URL"]
+    # st_player(url, height=600)
