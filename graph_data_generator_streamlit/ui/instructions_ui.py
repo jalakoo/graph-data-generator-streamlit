@@ -1,7 +1,7 @@
 from streamlit_player import st_player
 import streamlit as st
 
-def instructions_tab():
+def instructions_ui():
     st.title("Graph Data Generator App")
     st.markdown(
         """

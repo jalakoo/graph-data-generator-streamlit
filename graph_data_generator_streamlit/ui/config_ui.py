@@ -1,6 +1,6 @@
 import streamlit as st
 
-def config_tab():
+def config_ui():
 
     # LOAD OPENAI KEY
     open_ai_key = st.secrets.get("OPENAI_API_KEY", None)

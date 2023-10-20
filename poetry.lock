@@ -960,6 +960,22 @@ numpy = ["numpy (>=1.7.0,<2.0.0)"]
 pandas = ["numpy (>=1.7.0,<2.0.0)", "pandas (>=1.1.0,<3.0.0)"]
 
 [[package]]
+name = "neo4j-uploader"
+version = "0.1.0"
+description = ""
+optional = false
+python-versions = "^3.11"
+files = []
+develop = true
+
+[package.dependencies]
+neomodel = "^5.1.2"
+
+[package.source]
+type = "directory"
+url = "../../../neo4j/repos/neo4j-uploader"
+
+[[package]]
 name = "neobolt"
 version = "1.7.17"
 description = "Neo4j Bolt connector for Python"
@@ -2036,4 +2052,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.11"
-content-hash = "577c3f68945822d9ffbd0b70066bfedd8c1a6bbc5aceede8ef7b963f0c68264f"
+content-hash = "ad90a5553ad387a697aa33534e657cfca5e6f72f5629f32a4d69cea0491fdfb6"
